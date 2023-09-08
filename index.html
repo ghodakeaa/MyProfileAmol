@@ -14,6 +14,7 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon" />
     <style>
       i {
         margin: 0 3px;
@@ -21,6 +22,7 @@
       }
       .container-fluid {
         margin-top: 10px;
+        margin-left: 50px;
       }
       h4 {
         margin-top: 10px;
@@ -29,6 +31,14 @@
       }
       a {
         margin-left: -20px;
+        text-decoration: none;
+      }
+      nav {
+        margin-top: 20px;
+        margin-left: 50px;
+      }
+      .navMenu {
+        margin-right: 40px;
       }
       iframe {
         border: 1px;
@@ -39,35 +49,64 @@
     </style>
   </head>
   <body>
-    <div class="container-fluid">
-      <i class="fa fa-lg fa-user" aria-hidden="true">&nbsp;</i
-      ><span>Amol Ghodake</span>
-      <i class="fa fa-lg fa-phone-square" aria-hidden="true">&nbsp;</i
-      ><span>9322202110</span>
-      <i class="fa fa-lg fa-envelope" aria-hidden="true">&nbsp;</i
-      ><span>ghodakeaa@gmail.com</span>
-    </div>
+    <!-- Header Section -->
+    <header>
+      <div class="container-fluid">
+        <i class="fa fa-lg fa-user" aria-hidden="true">&nbsp;</i
+        ><span>Amol Ghodake</span>
+        <i class="fa fa-lg fa-phone-square" aria-hidden="true">&nbsp;</i
+        ><span>9322202110</span>
+        <i class="fa fa-lg fa-envelope" aria-hidden="true">&nbsp;</i
+        ><span>ghodakeaa@gmail.com</span>
+      </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+      <div class="container-fluid">
+        <a href="home.html" target="myFrame" class="navMenu">HOME</a>
+        <a href="techStackList.html" target="myFrame" class="navMenu"
+          >TECH STACK</a
+        >
+        <a href="projectDetails.html" target="myFrame" class="navMenu"
+          >PROJECT</a
+        >
+        <a href="education.html" target="myFrame" class="navMenu">EDUCATION</a>
+        <a href="#" class="navMenu">OTHERS</a>
+        <a href="personalDetails.html" target="myFrame" class="navMenu"
+          >PERSONAL</a
+        >
+      </div>
+    </nav>
+
+    <!-- Main Section -->
     <div class="container-fluid">
       <iframe
-        src=""
-        height="500vh"
-        width="900vw"
+        src="home.html"
+        height="460vh"
+        width="1100vw"
+        name="myFrame"
+        frameborder="0"
       ></iframe>
     </div>
-    <div class="container-fluid">
-      <h4>Follow me</h4>
-      <a href="https://linkedin.com/" target="_blank"
-        ><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i
-      ></a>
-      <a href="https://google.com/" target="_blank"
-        ><i class="fa fa-lg fa-google" aria-hidden="true"></i
-      ></a>
-      <a href="https://instagram.com/" target="_blank"
-        ><i class="fa fa-lg fa-instagram" aria-hidden="true"></i
-      ></a>
-      <a href="https://facebook.com/" target="_blank"
-        ><i class="fa fa-lg fa-facebook-official" aria-hidden="true"></i
-      ></a>
-    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container-fluid">
+        <h4>Follow me</h4>
+        <a href="https://linkedin.com/" target="_blank"
+          ><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i
+        ></a>
+        <a href="https://google.com/" target="_blank"
+          ><i class="fa fa-lg fa-google" aria-hidden="true"></i
+        ></a>
+        <a href="https://instagram.com/" target="_blank"
+          ><i class="fa fa-lg fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="https://facebook.com/" target="_blank"
+          ><i class="fa fa-lg fa-facebook-official" aria-hidden="true"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
