@@ -10,6 +10,9 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         li{
             list-style-type: square;
@@ -20,6 +23,9 @@
          .point{
             color: rgb(10, 209, 20);
             background-color: rgb(3, 29, 51);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 6px;
          }
          .text{
             color: rgb(248, 0, 0);
@@ -31,6 +37,9 @@
             font-weight: 600;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
          }
+         .summaryUl{
+            font-family: 'Poppins', sans-serif;
+         }
     </style>
 </head>
 <body>
@@ -38,7 +47,7 @@
         <h4 class="point">Career Objectives</h4>
         <p>To work in organization where I can learn and grow my skills and help organizational growth</p>
         <h4 class="point">Professional Summary</h4>
-            <ul>
+            <ul class="summaryUl">
                 <li>Having 1 years of experience in developing Single page Web Applications using <span class="text">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
                 <li class="li-item">Experience on working with version control system - GIT and GitHub</li>
                 <li>Experience working with JIRA for user stories and bug tracking</li>
