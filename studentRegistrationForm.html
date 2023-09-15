@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 6px;
+        }
+        h2{
+            color: wheat;
+        }
+        label{
+            color: cadetblue;
+        }
+        input[type="text"]{
+            color: coral;
+            text-transform: capitalize;
+        }
+        #formHeading:hover{
+            color: cadetblue;
+        }
+        input[type="submit"]:hover{
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-area container">
+        <div class="container" style="background-color:chocolate;"><H2>Student Registration Form</H2></div>
+        <fieldset>
+            <legend id="formHeading">Employee Registration Form</legend>
+        
+    <hr>
+    <table>
+        <tbody>
+        <form> 
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" autofocus placeholder="First Name" required maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" placeholder="Enter your email id" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Graduation</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date" style="width: 188px"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Pass out Year</label></td>
+                    <td><input type="date" style="width: 188px" ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Profile Picture</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload mark sheets</label></td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td><label for="">Permanent Address</label></td>
+                    <td><textarea cols="23" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">Select State</label></td>
+                    <td><select for="">
+                        <option value="MH">MH</option>
+                        <option value="KA">KA</option>
+                        <option value="TN">TN</option>
+                        <option value="AP">AP</option>
+                        <option value="UP">UP</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+                    <td><input type="text" value="India" readonly disabled></td>
+                </tr>
+                <tr>
+                    <td><Button type="submit" class="btn btn-success">Submit</Button></td> 
+                    <td><button type="reset" class="btn btn-secondary">Reset</button></td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+</fieldset> 
+    <div style="background-color: rgb(82, 36, 61);">
+        <table><hr>
+            <tr>
+                <td><h2 style='margin-right: 10px'>SSO sign in options</h2></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><a href="https://www.google.com/" target="_blank"><i class="fa fa-2x fa-google" aria-hidden="true"></i></a> &nbsp;&nbsp;
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>&nbsp;&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+  
+</div>
+</body>
+</html>

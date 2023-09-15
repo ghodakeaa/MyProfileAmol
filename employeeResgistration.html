@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="shortcut icon" href="Profile.jpg" type="image/x-icon">
+<style>
+    .empForm:hover{
+        background-color: blue;
+        color: brown;
+    }
+</style>
+</head>
+<body>
+    <h1 class="empForm">Employee Registration Form</h1>
+    <table>
+       <form>
+        <tbody>
+            <tr>
+                <td><label for="fName">First Name</label></td>
+                <td> <input type="text" id="fName"></td>
+            </tr>
+            <tr>
+                <td><label for="lName">Your Last Name</label></td>
+                <td><input type="text" id="lName"></td>
+            </tr>
+            <tr>
+                <td><label for="mobileNo">Mobile No.</label></td>
+                <td><input type="number" id="mobileNo"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email"  id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password"  id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="radio">Select Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="radio"><label for="">Male</label>
+                    <input type="radio" name="gender" id="radio"><label for="">Female</label>
+                    <input type="radio" name="gender" id="radio"><label for="">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Select your tech stack</label></td>
+                <td>
+                    <input type="checkbox" name="" id=""><label for="">HTML</label>
+                    <input type="checkbox" name="" id=""><label for="">JavaScript</label>
+                    <input type="checkbox" name="" id=""><label for="">CSS</label>
+                    <input type="checkbox" name="" id=""><label for="">Bootstrap</label>
+                    <input type="checkbox" name="" id=""><label for="">Angular</label>
+                    <input type="checkbox" name="" id=""><label for="">C++</label>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </tbody>
+       </form> 
+    </table>
+</body>
+</html>

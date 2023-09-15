@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hobbies{
+           list-style-type:lower-alpha;  /* upper-roman; | lower-roman | lower-alpha | upper-alpha  */
+      }
+      #techStack{
+          list-style-type: circle;  /* circle | square  */
+      }
+      .uiBackendTechStack{
+          list-style-type: none;
+      }
+      .mainItem::before{
+          content: "👉";
+      } 
+  </style>
+  </head>
+  <body>
+    <ol class="hobbies">
+      <h2>My hobbies</h2>
+      <li>Playing Cricket</li>
+      <li>Traveling</li>
+      <li>Listing Music</li>
+    </ol>
+    <hr />
+    <h2>My Technology Stack - UI and Backend along with DB</h2>
+    <ol class="uiBackendTechStack">
+      <li class="mainItem">UI Technology</li>
+      <ul id="techStack">
+        <li>HTML</li>
+        <li><mark>CSS</mark></li>
+        <li>Bootstrap</li>
+        <li>Angular</li>
+        <li>NodeJS</li>
+        <li>ExpressJS</li>
+      </ul>
+      <li class="mainItem">Backend Technology</li>
+      <ol>
+        <li>Core Java</li>
+        <li>Java 1.8</li>
+        <li>Spring and Spring Boot</li>
+        <li>ORM Tools</li>
+        <ul>
+          <li>Hibernate</li>
+          <li>JPA</li>
+          <li>Top link</li>
+        </ul>
+        <li>Microservices</li>
+        <li>Reactive Programming</li>
+      </ol>
+      <li class="mainItem">Database</li>
+      <ol>
+        <li>Oracle</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+      </ol>
+      <li class="mainItem">Tools</li>
+    </ol>
+  </body>
+</html>
