@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        p{
+            border: 1px solid cadetblue;
+            display: block;
+        }
+        #div{
+            border: 3px solid cadetblue;
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+        }
+        strong{
+            border: 3px solid red;
+        }
+
+        #heading{
+            border: 3px solid cadetblue;
+            /* display: none; */
+            visibility: hidden;
+        }
+        .heading3{
+            border: 3px solid cadetblue; 
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur</p>
+    <p>Lorem consectetur ipsum dolor sit amet consectetur.</p>
+    <div id="div">
+        <strong> Lorem, ipsum dolor. </strong>
+    </div>
+    <span> This is inline element </span>
+    <h2 id="heading"> This is heading 2 </h2>
+    <h3 class="heading3"> This is heading 3 </h3>
+</body>
+</html>

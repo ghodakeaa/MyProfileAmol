@@ -26,27 +26,33 @@
 
 
 
-let input='no';
+// let input='y';
 
-switch(input){
-    case 1: //if(input===1)
-        document.write('Continue..');
-        break;
-    case 'y': //if(input==='y')
-        document.write('Continue');
-        break;
-    case 'yes':
-        document.write('Continue');
-        break;
-    case 0:
-        document.write('End');
-        break;
-    case 'n':
-        document.write('End');
-        break;
-    case 'no':
-        document.write('End');
-        break;
-    default:
-        document.write('Wrong input');
+// switch(input){
+//     case 1: //if(input===1)
+//         document.write('Continue..');
+//         break;
+//     case 'y': //if(input==='y')
+//         document.write('Continue');
+//         break;
+//     case 'yes':
+//         document.write('Continue');
+//         break;
+//     case 0:
+//         document.write('End');
+//         break;
+//     case 'n':
+//         document.write('End');
+//         break;
+//     case 'no':
+//         document.write('End');
+//         break;
+//     default:
+//         document.write('Wrong input');
+// }
+
+
+for(i=1; i<=10; i++){
+    document.write(`2 x ${i} = ${2*i}`);
+    document.write("<br>");
 }
