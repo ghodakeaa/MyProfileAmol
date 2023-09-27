@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+        .col-sm-4{
+            height: 575px;
+            margin-top: 20px;
+            border: 1px ridge black;
+            border-radius: 10px;
+            box-shadow: 6px 7px 7px 4px rgb(121, 97, 97);
+        }
+        .col-sm-10{
+            background-color: rgb(21, 156, 209);
+            color:white;
+            border-radius: 3%;
+        }
+        span{
+            color:red;
+        }
+        #email{
+            margin-top: 10px;
+            margin-left: 20px;
+            display: block;
+        }
+        #reason{
+            margin-top: 30px;
+            margin-left: 20px;
+            display: block;
+            
+        }
+        .reason{
+            padding-bottom: 20px;
+        }
+        input{
+            width: 90%;
+            margin-left: 20px;
+            border-radius: 5px;
+            background-color: rgb(235, 243, 243);
+        }
+        button{
+            margin-top: 40px;
+            float: right;
+            margin-right: 20px;
+            border-radius: 5px;
+            background-color: rgb(235, 243, 243);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 offset-4">
+                <h3>Subscriber</h3>
+                <hr>
+                <div class="row">
+                    <div class="offset-1 col-sm-10 offset-1">
+                        <p>We'are sorry to see you  go, but hey,no hard feelings, hopefully we will see you back one day. <br>Please fill in your email address in order to unsubscribe from the list. <br>You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you. </p>
+                    </div>
+                </div>
+                <label for="" id="email"><b>Email</b><span>*</span></label>
+                <input type="text">
+                <label for="" id="reason"><b>Unsubscribe reason</b></label>
+                <input type="text" class="reason" placeholder="Unsubscribe reason">
+                <button>Unsubscribe</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
